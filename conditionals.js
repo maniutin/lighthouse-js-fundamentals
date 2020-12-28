@@ -34,3 +34,17 @@ if (temperature < -40 || temperature > 40) {
 if (!raining) {
   console.log("Leave your umbrella at home!");
 }
+var x = 1;
+while (x <= 10) {
+  console.log(x + " mississippi!");
+  x = x + 1;
+}
+
+for (var i = 0; i < 6; i = i + 1) {
+  console.log("Printing out i = " + i);
+}
+for (var x = 0; x < 5; x = x + 1) {
+  for (var y = 0; y < 3; y = y + 1) {
+    console.log(x + "," + y);
+  }
+}
